@@ -12,6 +12,10 @@
             color: #1f1e1e;
         }
         
+        p {
+            margin: 0;
+        }
+        
         a {
             text-decoration: none;
             color: inherit;
@@ -750,7 +754,10 @@
                 grid-template-columns: repeat(1, 1fr);
             }
             .booking__label {
+                display: flex;
+                flex: 0 1 auto;
                 margin-top: 14px;
+                line-height: normal;
                 margin-left: 0;
                 width: 100%;
                 /* Ситуация следующая, согласие на обработку данных улетает и не хочет никак передвигаться */
